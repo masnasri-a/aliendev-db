@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aliendev-database"
+version = "0.1.0"
+description = ""
+authors = ["Nasri Adzlani <nasri@jkt1.ebdesk.com>"]
+readme = "README.md"
+packages = [{include = "aliendev_database"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymongo = "^4.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
