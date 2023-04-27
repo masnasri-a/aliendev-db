@@ -10,6 +10,8 @@ packages = [{include = "aliendev_database"}]
 python = "^3.11"
 pymongo = "^4.3.3"
 
+[tool.poetry.scripts]
+aliendev-database = 'aliendev_database:Database'
 
 [build-system]
 requires = ["poetry-core"]

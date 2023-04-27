@@ -5,7 +5,7 @@ class Insert:
 
     def __init__(self, collection) -> None:
         self.collection = collection
-
+    
     def insert_one(self, data: dict, _id=None):
         if not _id:
             new_data = {}
